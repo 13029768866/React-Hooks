@@ -1,15 +1,15 @@
 import React from "react";
-import Buttons from "./Buttons";
 import ShowArea from "./ShowArea";
+import Buttons from "./Buttons";
 import { Color } from "./Color";
 
 function WrapperShow() {
     return(
         <div>
-           <Color>
-               <ShowArea/>
-               <Buttons/>
-           </Color>
+            <Color>
+                <ShowArea/>
+                <Buttons/>
+            </Color>
         </div>
     )
 }
