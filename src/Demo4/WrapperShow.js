@@ -9,7 +9,7 @@ function WrapperShow() {
         <div>
             <Color>
                 <ShowArea/>
-                <Buttons/>
+                <Buttons/>  
             </Color>
         </div>
     )
