@@ -3,14 +3,13 @@ import ShowArea from "./ShowArea";
 import Buttons from "./Buttons";
 import {Color} from "./Color";
 
-
 function WrapperShow() {
-    return (
+    return(
         <div>
-            <Color>
-                <ShowArea/>
-                <Buttons/>  
-            </Color>
+           <Color>
+               <ShowArea/>
+               <Buttons/>
+           </Color>
         </div>
     )
 }
